@@ -1,56 +1,60 @@
 {
-  "window.titleBarStyle": "custom",
-  "terminal.integrated.shell.linux": "/usr/bin/fish",
-  "telemetry.enableTelemetry": false,
-  "telemetry.enableCrashReporter": false,
-  "editor.fontSize": 15,
-  "editor.fontFamily": "'Cascadia Code', 'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-  "editor.fontLigatures": true,
-  "editor.fontWeight": "500",
-  "explorer.confirmDelete": false,
-  "workbench.colorTheme": "Origamid Next",
-  "workbench.iconTheme": "origamid-next-icons",
-  "editor.lineHeight": 26,
+  "editor.fontFamily": "'IBM Plex Mono', Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.fontWeight": 600,
+  "editor.lineHeight": 25,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
-  "window.zoomLevel": 0,
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.activityBar.visible": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "liveServer.settings.donotVerifyTags": true,
-  "explorer.confirmDragAndDrop": false,
-  "diffEditor.renderSideBySide": true,
   "editor.formatOnSave": true,
-  "editor.colorDecorators": true,
   "editor.autoClosingBrackets": "always",
   "editor.autoClosingQuotes": "always",
-  "color-highlight.markerType": "dot-before",
-  "window.title": "${activeEditorMedium}${separator}${rootName}",
-  "breadcrumbs.enabled": false,
+  "editor.minimap.enabled": false,
+  "editor.minimap.renderCharacters": false,
   "editor.renderWhitespace": "selection",
-  "prettier.singleQuote": true,
-  "prettier.trailingComma": "all",
-  "html.format.wrapAttributes": "auto",
-  "html.format.wrapLineLength": 0,
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "window.zoomLevel": 0.5,
+  "window.title": "",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.sortOrder": "type",
+  "explorer.compactFolders": false,
+  "terminal.integrated.cwd": "${fileDirname}",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.activityBar.visible": true,
+  "workbench.iconTheme": "vs-seti",
+  "workbench.colorTheme": "Dracula",
   "workbench.statusBar.visible": true,
+  "workbench.tree.indent": 6,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tree.expandMode": "doubleClick",
+  "workbench.list.openMode": "doubleClick",
+  "diffEditor.renderSideBySide": true,
+  "breadcrumbs.enabled": false,
+  "git.confirmSync": false,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "files.associations": {
+    "*.hcl": "terraform"
+  },
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "explorer.sortOrder": "type",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
   },
-  "[sql]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.minimap.enabled": false
-  // "[html]": {
-  //   "editor.defaultFormatter": "vscode.html-language-features"
-  //}
+  "customizeUI.font.regular": "HelveticaNeue",
+  "git.enableSmartCommit": true,
+  "explorer.confirmDelete": false,
+  "window.titleBarStyle": "custom",
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "python.showStartPage": false,
 }
